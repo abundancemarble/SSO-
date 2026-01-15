@@ -1,0 +1,1 @@
+twilio flex:plugins:release --name "First Plugin Release" --description "Enabling Plugin Sample" --plugin plugin-sample@1.0.0
