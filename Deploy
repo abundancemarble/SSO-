@@ -1,0 +1,1 @@
+twilio flex:plugins:deploy --major --changelog "Adding Bing as search engine" --description "First Plugin on Flex"
