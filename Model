@@ -1,0 +1,4 @@
+module.exports = {
+    ...{other rules if any}
+    updateSassModuleRules,
+};
