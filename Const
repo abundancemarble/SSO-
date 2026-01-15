@@ -1,0 +1,2 @@
+const options = { sortOrder: -1 };
+flex.AgentDesktopView.Panel1.Content.add(<CustomTaskList key="SamplePlugin-component" />, options);
