@@ -1,0 +1,5 @@
+flex.CRMContainer.defaultProps.uriCallback = (task) => {
+      return task
+        ? `https://www.bing.com/search?q=${task.attributes.name}`
+        : "https://www.bing.com"
+}
