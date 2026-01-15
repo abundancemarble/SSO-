@@ -1,0 +1,28 @@
+Certificate: SSO
+    Data: Twilio flex
+        Version: 3 (0x2)
+        Serial Number: 0x2e72aabd66498 (123456789012345)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = CA, O = Example Inc, CN = my-example.com
+        Validity
+            Not Before: Jan 01 00:00:00 2026 GMT
+            Not After : Jan 01 00:00:00 2027 GMT
+        Subject: C = US, ST = CA, O = Example Inc, CN = my-example.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus: 00:ab:...:23
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Alternative Name: 
+                DNS:my-example.com, DNS:www.my-example.com
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:AB:CD:EF:...
+            X509v3 Subject Key Identifier: 
+                12:34:56:...
+    Signature Algorithm: sha256WithRSAEncryption
+         3a:9f:...
