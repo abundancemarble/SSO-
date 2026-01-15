@@ -1,0 +1,5 @@
+# Now we can start with a template plugin for Flex 2.0 with the create command
+twilio flex:plugins:create plugin-sample --install
+
+# Or if you prefer a typescript project run
+twilio flex:plugins:create plugin-sample --install --typescript
