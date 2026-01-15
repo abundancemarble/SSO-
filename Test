@@ -1,0 +1,24 @@
+test-repo (test-branch)]$ git log
+commit 8053f7b27 (HEAD -> main)
+Author: Octocat <1000+octocat@users.noreply.github.com
+Date:   Tue Jan 30 13:03:37 2024 +0100
+
+  my fourth commit message
+
+commit 03d69e5d3
+Author: Octocat <1000+octocat@users.noreply.github.com>
+Date:   Tue Jan 30 13:02:59 2024 +0100
+
+  my third commit message
+
+commit 8728dbe67
+Author: Octocat <1000+octocat@users.noreply.github.com
+Date:   Tue Jan 30 13:01:36 2024 +0100
+
+  my second commit message
+
+commit 6057cbe51
+Author: Octocat <1000+octocat@users.noreply.github.com
+Date:   Tue Jan 30 12:58:24 2024 +0100
+
+  my first commit message
