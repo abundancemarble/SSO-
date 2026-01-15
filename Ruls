@@ -1,0 +1,41 @@
+const updateSassModuleRules = (config) => {
+    // SASS - COMPATIBILITY WITH TWILIO BASE CONFIG FOR DEVELOPMENT
+    const { oneOf } = config.module.rules.find((rule) => rule['oneOf']);
+    if (!oneOf) return config;
+    const newOneOf = oneOf.map((rule) => {
+        const constainsStyleLoader = rule.use?.some((loader) => loader.includes('style-loader'));
+        if (constainsStyleLoader) {
+            const updatedLoaders = rule.use.map((loader) => {
+                if (!loader?.options) return loader;
+                return {
+                    ...loader,
+                    options: {
+                        ...loader.options,
+                        sourceMap: true,
+                    },
+                };
+            });
+            return {
+                ...rule,
+                use: updatedLoaders,
+            };
+        }
+        return rule;
+    });
+    const updatedRules = {
+        module: {
+            rules: [
+                {
+                    oneOf: newOneOf,
+                },
+            ],
+        },
+    };
+    return mergeWithRules({
+        module: {
+            rules: {
+                oneOf: 'replace',
+            },
+        },
+    })(config, updatedRules);
+};
