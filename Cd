@@ -1,0 +1,2 @@
+cd plugin-sample
+twilio flex:plugins:start
