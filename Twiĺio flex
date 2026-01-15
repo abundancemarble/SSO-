@@ -1,0 +1,13 @@
+I am setting up SSO for Twilio Flex, and I need assistance setting up Flex as an application in our identity provider.
+
+Here is the information that Flex provides for setting up the application: 
+
+Entity ID: urn:flex:JQ9e00d05d68aa23a57867fb51d427b633 
+ACS URL: https://login.flex.us1.twilio.com/login/callback?connection=JQ9e00d05d68aa23a57867fb51d427b633
+Once the Flex application is set up in our IdP, please send me the following information from the IdP to complete SSO setup in Flex:
+
+X.509 certificate: 
+Single sign-on URL: 
+Default redirect URL (optional):
+Trusted URLs (optional):
+To grant access to the new application, users must be configured with these mandatory attributes: full name, email, Flex role (agent, supervisor, administrator)
